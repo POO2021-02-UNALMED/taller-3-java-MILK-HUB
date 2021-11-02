@@ -1,7 +1,7 @@
 package taller3.televisores;
 
 public class TV {
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {*/
 	}
 	private Marca marca;
 	private int canal = 1;
