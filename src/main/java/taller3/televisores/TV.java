@@ -92,4 +92,7 @@ public class TV {
 		volumen = volumen - 1;
 	}
 	}
+	public boolean getEstado() {
+		return estado;
+	}
 }
