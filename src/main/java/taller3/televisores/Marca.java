@@ -1,4 +1,4 @@
-package televisores;
+package taller3.televisores;
 
 
 public class Marca {
@@ -11,13 +11,12 @@ public class Marca {
 			
 	}
 	
-	public void getNombre() {
-		return nombre;
-	}
-	
 	public void setNombre(String nombre) {	
 		this.nombre = nombre;
 	}
 	
+	public void getNombre() {
+		return nombre;
+	}
 	
 }
