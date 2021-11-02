@@ -26,7 +26,7 @@ public class TV {
 			estado = false;
 	}
 	
-	public Marca getMarca(Marca marca) {
+	public Marca getMarca() {
 		return marca;
 	}
 	
