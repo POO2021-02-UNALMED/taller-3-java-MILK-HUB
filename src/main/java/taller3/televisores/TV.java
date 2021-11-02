@@ -68,6 +68,10 @@ public class TV {
 		numTV= numero;	
 		}	 
 	
+	public static int getNumTV( ) {
+		return numTV;
+	}
+	
 	public void canalUp() {
 		if(estado == true && canal < 120){
 		canal = canal + 1;			
@@ -95,4 +99,5 @@ public class TV {
 	public boolean getEstado() {
 		return estado;
 	}
+	
 }
