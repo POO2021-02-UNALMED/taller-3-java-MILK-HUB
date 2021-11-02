@@ -13,9 +13,9 @@ public class Control {
 	}
 		
 	public void turnOn() {
-		tv.turnON();
+		tv.turnOn();
 	}
-	public void turnOFF() {
+	public void turnOff() {
 		tv.turnOff();	
 		
 	}

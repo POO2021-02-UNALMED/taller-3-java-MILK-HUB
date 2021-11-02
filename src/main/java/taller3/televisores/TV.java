@@ -19,11 +19,11 @@ public class TV {
 	}
  /*get and set*/  /* marca, control, precio, volumen y canal*/
 	
-	public void turnON() {
-		estado = true;
+	public void turnOn() {
+			estado = true;
 	}
 	public void turnOff() {
-		estado = false;
+			estado = false;
 	}
 	
 	public Marca getMarca(Marca marca) {
