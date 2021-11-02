@@ -34,14 +34,14 @@ public class TV {
 		this.marca = marca;
 	}
 
-	public Control getControl(Control control) {
+	public Control getControl() {
 		return control;
 	}
 	public void setControl(Control control) {
 		this.control = control;
 	}
 	
-	public int getPrecio(int precio) {
+	public int getPrecio() {
 		return precio;
 	}
 	
