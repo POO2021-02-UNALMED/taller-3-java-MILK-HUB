@@ -20,10 +20,10 @@ public class TV {
  /*get and set*/  /* marca, control, precio, volumen y canal*/
 	
 	public void turnON() {
-		this.estado = true;
+		estado = true;
 	}
 	public void turnOff() {
-		this.estado = false;
+		estado = false;
 	}
 	
 	public Marca getMarca(Marca marca) {
@@ -63,7 +63,9 @@ public class TV {
 		if(this.estado == true  && canal >=1  && canal <=120) {
 		this.canal = canal;	
 		}
-		 
+	}
+	public static void setNumTV(int numero) {
+		numTV= numero;	
+		}	 
 	}
 
-}
